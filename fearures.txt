@@ -1,0 +1,3 @@
+1/ display the news 
+2/ search news 
+3/ have a button to fetch news according to it's catoegory

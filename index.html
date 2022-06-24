@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="shortcut icon" href="./news.ico" type="image/x-icon">
+</head>
+<body>
+    <header class="text-gray-600 body-font">
+        <div class="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
+          <a class="flex title-font font-medium items-center text-gray-900 mb-4 md:mb-0">
+            <span class="ml-3 text-xl">Daily Star 	&#9733;</span>
+          </a>
+        <nav class="md:mr-auto md:ml-4 md:py-1 md:pl-4 md:border-l md:border-gray-400	flex flex-wrap items-center text-base justify-center">
+        <button onclick="getCategory('business')" class="mr-5 hover:text-gray-900">business</button> 
+        <button onclick="getCategory('entertainment')" class="mr-5 hover:text-gray-900">entertainment</button> 
+        <button onclick="getCategory('general')" class="mr-5 hover:text-gray-900">general</button> 
+        <button onclick="getCategory('health')" class="mr-5 hover:text-gray-900">health</button> 
+        <button onclick="getCategory('science')" class="mr-5 hover:text-gray-900">science</button> 
+        <button onclick="getCategory('sports')" class="mr-5 hover:text-gray-900">sports</button> 
+        <button onclick="getCategory('technology')" class="mr-5 hover:text-gray-900">technology</button> 
+    </nav>
+    <!-- <div class="input w-22 h-6 ">
+        <input type="text" class="outline-none border-none bg-slate-200 px-3 py-1 rounded-full font-semibold text-gray-400" id="searchInput">
+    </div> -->
+        </div>
+      </header>
+      <hr>
+      <hr>
+      <hr>
+
+      <h1 class="text-center font-semibold text-slate-600 py-3 text-xl">Welcome to Daily Star</h1>
+      <div id="box" class="container w-full h-full box-border px-5 py-2 flex  flex-wrap items-center">
+      
+       
+      </div>
+      <script src="./script.js"></script>
+</body>
+</html>
